@@ -1,0 +1,6 @@
+data/*.md
+data/*.pkl
+chroma_db_llamaparse1/
+myvenv/
+.env
+main.py
