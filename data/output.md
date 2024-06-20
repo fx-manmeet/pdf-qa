@@ -1,658 +1,1974 @@
 #
+# Internship Report
 
-# Event Classification in Cricket with AI
+# INTERNSHIP REPORT
 
-# Event Classification in Cricket with AI
+Under Subject of Data Science and Analytics
 
-# CHAPTER 1: Introduction
+SUMMER INTERNSHIP - 1(ITIS1)
+
+B.Tech. SEMESTER-V
+
+# Submitted by
+
+Patel Manmeet Miteshkumar (21IT456)
+
+G1LKARMA
+
+ABHVDYNNAGA
+
+WORKISWORSHIP
+
+Information Technology Department
+
+Birla Vishvakarma Mahavidyalaya Engineering College
+
+(An Autonomous Institution)
+
+AY: 2022-23, Semester II
+---
+#
+# Internship Certificate
+
+# CERTIFICATE
+
+This is to certify that Patel Manmeet Miteshkumar with ID Number 21IT456 has been successfully completed summer Internship -1 (ITIS1) at SmartSense Consulting Solutions Pvt. Ltd. under the guidance of Prof. Kanu Patel during the academic year 2022-23, Semester II.
+
+Date: 19/10/23
+
+Prof. Kanu Patel
+
+IT Department
+
+Birla Vishvakarma Mahavidyalaya Engineering College
+---
+#
+
+# Table of Contents
+
+# Table of Contents
+
+|Sr no.|Topic|Page no.|
+|---|---|---|
+|1.|Completion letter|4|
+|2.|Acknowledgment|5|
+|3.|Company profile|6|
+|4.|Executive summary|7|
+|5.|Daily tasks|8|
+|6.|Chapter 1: Introduction|25|
+|7.|Chapter 2: Analysis, Design Methodology, and Implementation Strategy|27|
+|8.|Chapter 3: Implementation and testing|29|
+|9.|Chapter 4: Conclusion|33|
+|10.|References|34|
+---
+#
+# Completion Letter
+
+# CERTIFICATE OF PARTICIPATION
+
+THIS CERTIFICATE IS AWARDED TO
+
+# MANMEET Patel
+
+for his/her successful completion of TWO week Summer Internship on "Data Science and Analytics" organized by Information Technology Department, BVM in association with smartSense Consulting Solutions Pvt. Ltd, Gandhinagar during 12th June, 2023 to 24th June, 2023
+
+MR. MAYUR PABARI
+
+CEO & President, smartSense Consulting Solution Pvt. Ltd.
+
+DR. KEYUR BRAHMBHATT
+
+Head, Information Technology Dept., BVM
+
+DR. INDRAJIT N. PATEL
+
+Principal, BVM
+---
+#
+
+# Acknowledgment
+
+# Patel Manmeet (21IT456)
+
+# Acknowledgment
+
+I wish to express my profound gratitude to the entire SmartSense team, specifically, Mr. Mayur J. Pabari, Mr. Krupal Purohit, Mr. Sudip Das, and Mr. Suraj Zala, for their invaluable guidance and unwavering support throughout the duration of my internship. Each of these experts possesses an impressive depth of knowledge in their respective roles, and their expertise played an instrumental role in facilitating my rapid progress in the expansive and forward-looking field of Machine Learning and Artificial Intelligence.
+
+I would also like to extend my appreciation to Birla Vishvakarma Mahavidyalaya, our esteemed Principal, Prof. (Dr.) Indrajit Patel, the Head of the IT Department, Mr. Keyur Brahmbhatt, and the Coordinators, Ms. Zankhana Shah and Mr. Dharmesh Patel. It is through their gracious provision of this exceptional opportunity that I was able to gain practical, hands-on experience and receive invaluable lessons from industry luminaries.
+---
+#
+
+# Company Profile
+
+# Company Profile
+
+smartSense Consulting Solutions Pvt Ltd:
+
+Website: https://www.smartsensesolutions.com/
+
+# Aim:
+
+Our aim is to remain one of the most innovative organizations around the world that provides concrete solutions to the clients in various domains around the globe. And we believe that it always makes smart sense if the customer wins. That’s why our product solutions, ranging from Education domain, well-developed organisations, to smartHome, have been customized to extend the benefits of our customers.
+
+# Mission:
+
+Our mission is to continue implementing smart development Solutions for the customers and providing them outstanding IT services. We always keep the business perspective along with the technical knowledge in order to help our clients develop robust platform technically as well as practically. All in all “Customer’s Win is our Mission”.
+
+# Expertise:
+
+Blockchain | Data Science | Web development | Mobile app development | Internet of things | Database and server management | Quality analysis
+---
+#
+
+# Resume
+
+# Patel Manmeet (21IT456)
+
+# Executive Summary
+
+During my two weeks of work as a summer intern, I learned a lot about data science and analytics. It was mostly concentrated on the machine learning component, which was entirely new to me. I discussed machine learning fundamentals including supervised and unsupervised learning. Additionally, I learned some fundamentals of elastic search, neural networks, deep learning, and APIs. At the end of it, I started working on my first machine learning project under experts' guidance. In that, first of all, I executed a simple feed forward neural network from scratch for XOR functionality. Then tried to create a cricket match highlights generating model using CNN+RNN. Eventually created a model for calculating the screen time of actors in any video with deep learning.
+---
+#
+
+# Manmeet Patel's Daily Tasks
+
+# Manmeet Patel (21IT456) - Daily Tasks
+
+# Day-1:
+
+Introduction to ML and Python basics
+
+We learnt some of the fundamentals of ML and were introduced to its huge scope.
+
+1. Supervised learning
+2. Supervised Learning is a type of machine learning where the algorithm is trained on a labeled dataset, meaning that the input data consists of both the input features and the corresponding correct output. The goal is for the algorithm to learn a mapping function that can accurately predict the output for new, unseen data.
+
+Unsupervised learning
+3. Unsupervised Learning is a type of machine learning where the algorithm is given input data without explicit instructions on what to do with it. The system tries to learn the patterns and structure from the data without any labeled outputs.
+
+Reinforcement learning
+4. Reinforcement Learning is a type of machine learning where an agent learns to make decisions by interacting with an environment. The agent receives feedback in the form of rewards or punishments, allowing it to learn optimal strategies over time.
+
+Semisupervised learning
+
+Then, we did some basic Python programs and understood the versatility of Python that it provides.
+
+# Day-2:
+
+Content for Day 2 goes here.
+---
+#
+
+# Data Science Concepts
+
+# Difference between AI/ML/DL:
+
+- AI: Engineering of making intelligent programs and machines
+- ML: Ability to learn without being explicitly programmed
+- DL: Learning based on deep neural network
+
+# Data Collection:
+
+Definition: Data collection involves gathering relevant data from various sources to create a dataset that can be used for training and evaluating machine learning models.
+
+# Challenges:
+
+- Data Availability: Sometimes, obtaining sufficient and relevant data can be a challenge.
+- Data Quality: Ensuring that the collected data is accurate and representative of the problem is crucial.
+
+# Data Cleaning:
+
+Definition: Data cleaning involves identifying and correcting errors or inconsistencies in the dataset.
+
+# Challenges:
+
+- Identifying Errors: Detecting errors or inconsistencies in the dataset can be challenging.
+- Balancing Classes: Addressing class imbalances, especially in datasets where certain classes are underrepresented.
+
+# Data Preprocessing:
+
+Definition: Data preprocessing involves transforming raw data into a format suitable for machine learning. It includes cleaning, formatting, and organizing the data.
+
+# Challenges:
+
+- Choosing Imputation Methods: Selecting appropriate methods for imputing missing values.
+- Scaling Challenges: Deciding whether to use normalization or standardization based on the characteristics of the data.
+---
+#
+
+# Classification in Machine Learning
+
+# Classification in Machine Learning
+
+# Definition:
+
+Classification is a supervised learning task where the goal is to predict the categorical class labels of new instances based on past observations. The output is a discrete label or category.
+
+# Key Characteristics:
+
+- Output: Categorical labels or classes (e.g., spam or not spam, digit recognition, sentiment analysis - positive/negative/neutral).
+- Problem Type: Used for problems where the target variable is a category or class.
+- Algorithms: Common algorithms include Decision Trees, Random Forests, Support Vector Machines, Naive Bayes, and Neural Networks.
+- Evaluation Metrics: Accuracy, precision, recall, F1-score, and confusion matrix are commonly used metrics for evaluating classification models.
+
+# Example:
+
+Problem: Email spam detection.
+
+Input Features: Email content, sender, subject, etc.
+
+Output: Spam or Not Spam.
+
+Day-3
+
+Feature Engineering Complexity: Creating meaningful features that enhance model performance.
+
+Patel Manmeet (21IT456)
+---
+#
+
+# OCR Text Analysis
+
+# OCR Text Analysis
+
+# Workflow:
+
+1. Data Collection: Gather labeled data with examples of each class.
+2. Data Preprocessing: Handle missing values, encode categorical variables, and split data into training and testing sets.
+3. Model Training: Use a classification algorithm to train the model on the training data.
+4. Model Evaluation: Evaluate the model's performance on the testing data using appropriate metrics.
+5. Prediction: Use the trained model to predict the class labels of new, unseen instances.
+
+# Regression:
+
+# Definition:
+
+Regression is a supervised learning task where the goal is to predict a continuous numerical value based on input features. The output is a real-valued quantity.
+
+# Key Characteristics:
+
+- Output: Continuous numerical values (e.g., house prices, temperature, stock prices).
+- Problem Type: Used for problems where the target variable is a numeric value.
+
+# Algorithms:
+
+No specific algorithms mentioned in the provided OCR text.
+---
+#
+
+# Regression Algorithms
+
+# Regression Algorithms
+
+Linear Regression, Decision Trees, Random Forests, Support Vector Regression, and Neural Networks are common regression algorithms.
+
+# Evaluation Metrics:
+
+Mean Squared Error (MSE), Mean Absolute Error (MAE), and R-squared are commonly used metrics for evaluating regression models.
+
+# Example:
+
+Problem: Predicting house prices.
+
+Input Features: Size of the house, number of bedrooms, location, etc.
+
+Output: Continuous numerical value representing the price.
+
+# Workflow:
+
+1. Data Collection: Gather labeled data with numerical target values.
+2. Data Preprocessing: Handle missing values, encode categorical variables, and split data into training and testing sets.
+3. Model Training: Use a regression algorithm to train the model on the training data.
+4. Model Evaluation: Evaluate the model's performance on the testing data using appropriate regression metrics.
+5. Prediction: Use the trained model to predict the numerical values of new, unseen instances.
+
+# Key Differences:
+
+Classification:
+
+12
+---
+#
+
+# Linear Regression
+
+# Linear Regression
+
+# Definition:
+
+Linear Regression is a supervised machine learning algorithm used for predicting a continuous outcome variable (dependent variable) based on one or more predictor variables (independent variables). It assumes a linear relationship between the features and the target variable.
+
+# Key Characteristics:
+
+- Equation: The linear regression equation is of the form y=mx+b, where y is the predicted output, x is the input feature, m is the slope, and b is the intercept.
+- Objective: Minimize the sum of squared differences between the actual and predicted values.
+- Use Cases: Predicting house prices, stock prices, or any continuous variable.
+
+# Algorithm:
+
+Linear regression algorithm aims to find the best-fitting straight line by minimizing the sum of squared errors between the actual and predicted values.
+---
+#
+
+# OCR Text Summary
+
+# OCR Text Summary
+
+# Patel Manmeet (21IT456)
+
+# Ordinary Least Squares (OLS)
+
+OLS are often used to find the optimal parameters (slope and intercept).
+
+# Logistic Regression
+
+Definition: Logistic Regression is a classification algorithm used to predict the probability of an instance belonging to a particular class. It is used for binary and multi-class classification problems.
+
+Key Characteristics:
+
+- Equation: Uses the logistic function to map linear combinations of features to values between 0 and 1.
+- Objective: Minimize the log-likelihood function.
+- Use Cases: Spam detection, disease diagnosis, sentiment analysis.
+- Algorithm: Optimized using techniques like Maximum Likelihood Estimation (MLE).
+
+# Stochastic Gradient Descent regression
+
+Definition: Stochastic Gradient Descent (SGD) is an optimization algorithm used for training machine learning models, including linear and logistic regression. It updates the model parameters with each training example.
+
+Key Characteristics:
+
+- Update Rule: Updates model parameters with each training example.
+---
+#
+
+# OCR Text Analysis
+
+# OCR Text Analysis
+
+Patel Manmeet (21IT456)
+
+The parameters are updated with each training example using the gradient of the loss function with respect to the parameters.
+
+Batch Size:
+
+It often works with small batches of data, introducing randomness into the optimization process.
+
+Convergence:
+
+Converges faster than batch gradient descent but may have more oscillations.
+
+Use Cases:
+
+Suitable for large datasets where processing the entire dataset in one go is computationally expensive.
+
+Key Differences:
+
+1. Linear Regression:
+- Output: Continuous values.
+- Objective: Minimize the sum of squared differences.
+2. Logistic Regression:
+- Output: Probabilities between 0 and 1.
+- Objective: Minimize the negative log-likelihood.
+3. Stochastic Gradient Descent:
+- Optimization: Updates model parameters with each training example.
+- Use Cases: Particularly useful for large datasets.
+
+In summary, Linear Regression is for predicting continuous values, Logistic Regression is for classification tasks, and Stochastic Gradient Descent is an optimization algorithm that can be used with both regression and classification models.
+
+15
+---
+#
+
+# OCR Text Summary
+
+# OCR Text Summary
+
+# Day-6
+
+We learned about NumPy and Pandas libraries:
+
+- NumPy: Numerical Python library for large, multi-dimensional arrays and matrices.
+- Pandas: Data manipulation and analysis library with structures like Series and DataFrame.
+
+Further exploration with NumPy and Pandas was done.
+
+# Day-7,8
+
+# Decision Tree
+
+Definition: A supervised machine learning algorithm that uses recursive partitioning based on input features.
+
+Key Characteristics:
+
+1. Nodes:
+- Decision nodes: Represent decisions or tests.
+- Branches: Show outcomes of tests.
+- Leaf nodes: Represent class labels.
+2. Splitting Criteria: Criteria used for partitioning data.
+---
+#
+
+# Decision Trees Overview
+
+# Decision Trees Overview
+
+# Recursive Splitting
+
+The process of splitting continues recursively until a stopping criterion is met, such as a maximum depth or a minimum number of samples per leaf.
+
+# Classification and Regression
+
+Decision Trees can be used for both classification and regression tasks.
+
+# Workflow
+
+1. Root Node:
+Select the best feature to split the data at the root node.
+2. Splitting:
+Recursively split the data into subsets based on feature values.
+3. Stopping Criteria:
+Stop splitting when a stopping criterion is met.
+4. Leaf Nodes:
+Assign class labels to leaf nodes.
+5. Prediction:
+For a new input, traverse the tree to a leaf node and predict the corresponding class.
+
+# Advantages
+
+- Interpretability:
+Decision Trees are easy to interpret and visualize, making them useful for understanding decision-making processes.
+- No Feature Scaling:
+Decision Trees do not require feature scaling.
+---
+#
+
+# Decision Trees and Random Forest
+
+# Decision Trees
+
+Decision Trees do not require feature scaling, making them suitable for datasets with different scales.
+
+# Handling Nonlinear Relationships:
+
+Decision Trees can model nonlinear relationships in the data.
+
+# Limitations:
+
+- Overfitting: Decision Trees are prone to overfitting, capturing noise in the training data.
+- Instability: Small changes in the data can lead to different tree structures.
+
+# Random Forest
+
+# Definition:
+
+Random Forest is an ensemble learning method that constructs a multitude of decision trees during training and outputs the class that is the mode of the classes (classification) or mean prediction (regression) of the individual trees. It builds multiple Decision Trees and merges them together to get a more accurate and stable prediction.
+
+# Key Characteristics:
+
+- Bagging: Random Forest uses a technique called bagging (Bootstrap Aggregating) to train multiple Decision Trees.
+- Random Subsets: Each tree is trained on a random subset of the training data with replacement (bootstrap samples).
+- Random Feature Subset: At each node of the tree, a random subset of features is considered for splitting.
+---
+#
+
+# Random Forest Workflow
+
+# Random Forest Workflow
+
+# Voting or Averaging:
+
+For classification, the mode (most frequent class) of the predictions is taken. For regression, the average of the predictions is considered.
+
+# Workflow:
+
+1. Bootstrapped Samples: Create multiple bootstrapped samples from the training data.
+2. Decision Tree Training: Train a Decision Tree on each bootstrapped sample using a random subset of features at each node.
+3. Voting or Averaging: Combine the predictions of individual trees through voting (classification) or averaging (regression).
+4. Prediction: For a new input, obtain predictions from each tree and combine them.
+
+# Advantages:
+
+1. Reduced Overfitting: Random Forest mitigates overfitting by combining multiple trees.
+2. Improved Generalization: The ensemble nature of Random Forest improves generalization to new data.
+3. Feature Importance: Random Forest provides a measure of feature importance based on the contribution of features to the ensemble.
+
+# Limitations:
+
+1. Complexity:
+---
+#
+
+# OCR Text Summary
+
+# OCR Text Summary
+
+# Random Forest vs. Decision Trees:
+
+Random Forest models can be computationally intensive and may require more resources compared to Decision Trees. While Random Forest provides feature importance, interpreting the entire ensemble can be challenging. Decision Trees are single trees that make decisions based on feature values, while Random Forest is an ensemble of multiple trees that reduces overfitting and improves generalization by combining the predictions of individual trees.
+
+# Day-9: Discrete Input, Discrete Output
+
+Refers to situations where both the input and output are categorical and distinct. In machine learning, this involves making predictions for categorical variables with a discrete set of categories.
+
+# Random Forest:
+
+A sophisticated ensemble learning method that utilizes multiple decision trees. Each tree independently makes predictions, and the final output is determined through voting (for classification) or averaging (for regression). This ensemble approach enhances model robustness and generalization.
+
+# Decision Tree:
+
+An intuitive, hierarchical model that makes decisions based on conditions at each node. It operates like a flowchart, where each internal node represents a test on an attribute, each branch represents the outcome of the test, and each leaf node holds a class label.
+
+# Entropy and Decision-Making:
+
+Entropy is a measure of impurity in decision tree nodes. Achieving a balance between yes and no responses is crucial in decision-making processes.
+---
+#
+
+# OCR Text Summary
+
+# OCR Text Summary
+
+# Decision Trees and Entropy:
+
+Decision trees are effective when there is more entropy, indicating increased uncertainty.
+
+# Bagging and Boosting:
+
+# Bagging:
+
+Technique to reduce model variance by combining predictions from models trained on different subsets of the dataset.
+
+Commonly used with high-variance models.
+
+# Boosting:
+
+Combines multiple weak learners to create a strong learner by iteratively correcting errors.
+
+Reduces bias and enhances overall model performance.
+
+# Recurrent Neural Networks (RNNs):
+
+# RNNs:
+
+Specialized neural networks for processing sequences of data, suitable for time series data or natural language processing.
+
+Introduces concepts like recurrent neurons, layers, and challenges of short-term memory.
+
+# Short-Term Memory Issues:
+
+RNNs face challenges in retaining information over long sequences due to short-term memory limitations.
+
+Introduces solutions like Gated Recurrent Unit (GRU) and Long Short-Term Memory (LSTM) architectures.
+
+# GPT Training Process:
+
+# GPT Training Phases:
+
+Outlines multi-phase training approach for models like GPT.
+
+Key steps include initial language learning, creation of conversational datasets, and reinforcement learning using human feedback.
+
+# Reward Function and RLHF:
+
+Information about Reward Function and RLHF is not provided in the OCR text.
+---
+#
+
+# Document
+
+# Patel Manmeet (21IT456)
+
+# Reinforcement Learning from Human Feedback (RLHF)
+
+RLHF involves training a reward function for reinforcement learning. The model is fine-tuned for question-answering using ELI5-style questions, and the reward function is crucial for aligning the model with human expectations.
+
+# Image Captioning
+
+Delves into the realm of image captioning, where models generate textual descriptions for images.
+
+# Image Captioning and BLEU-4
+
+The BLEU-4 metric measures the similarity between predicted and training captions through 4-grams. Various datasets like Flicker8k and Flicker30k are briefly discussed.
+
+# Hyperparameters
+
+Dropout is explained as a regularization technique to prevent overfitting by randomly dropping out neurons during training. The learning rate scheduler adjusts the learning rate dynamically during training, impacting the convergence and performance of the model.
+
+# Checkpoints
+
+Highlights the importance of checkpoints in training. Checkpoints allow the model's state to be saved periodically, providing the ability to resume training or evaluate model performance at different stages.
+
+# DALL-E by OpenAI
+
+Briefly introduces DALL-E, an OpenAI model capable of generating images from textual descriptions. The model showcases the expanding capabilities of AI in creative tasks beyond traditional machine learning applications.
+
+By providing a more detailed explanation, we aim to enhance the understanding of each concept within the given data.
+
+# Day-10
+
+# Elastic search
+
+Information about Elastic search goes here.
+
+22
+---
+#
+
+# OCR Text
+
+# OCR Text:
+
+Patel Manmeet (21IT456)
+
+Elasticsearch is a powerful tool for managing and searching through large sets of
+documents efficiently. Suppose you have a collection of documents, and someone wants to
+ask questions related to that content. In such a scenario, the first step is to index those
+documents, making them searchable through Elasticsearch.
+
+Notably, companies like Jaguar, Land Rover, Pfizer, Delhivery, and Engadget leverage
+Elasticsearch for various purposes.
+
+When running applications, it's common to have three different environments: development
+(dev), quality assurance (QA), and production. Each environment generates different types
+of logs, including error, exception, debug, and info logs. Kibana, a user interface, operates on
+port 5601 and serves as a visualization tool for Elasticsearch logs.
+
+In the production environment, it's advisable to change the default port number for added
+security.
+
+One essential use case is to index documents and enable AI-driven search capabilities. This
+involves implementing a retriever and a reader. The retriever is responsible for finding relevant
+documents for a given functionality. The process involves word embedding, where numeric
+values are assigned to words and placed in a vector space. The default dimension for word
+embedding is 768, but recent models support up to 2048 dimensions. Transformers play a
+crucial role in this process, enabling parallelization.
+
+For the retriever, there are techniques like one-hot encoding and normal encoding.
+
+The reader, on the other hand, is tasked with finding answers to content and queries. It employs
+an encoder and decoder model to accomplish this task effectively.
+
+In summary, Elasticsearch is employed to index documents and facilitate efficient and
+intelligent searching through the implementation of retriever and reader functionalities.
+It's a valuable tool used by various companies for tasks ranging from managing logs in different
+environments to enabling sophisticated search capabilities through AI-driven processes.
+
+Day-11
+
+Project selection and discussion:
+
+23
+---
+#
+
+# OCR Text Analysis
+
+# OCR Text Analysis
+
+Name: Patel Manmeet
+
+Roll Number: 21IT456
+
+# Project Concept: "Match highlights generation with event detection in cricket"
+
+After a pleasant conversation about projects, the team considered potential ML projects to work on either solo or in pairs. The chosen project concept involved generating match highlights in cricket with event detection, such as dot balls, boundaries, wickets, or runs. However, due to challenges with dataset availability and scrapping, the project was postponed for future consideration.
+
+# Day-12: Project Planning and Implementation
+
+Following the shelving of the cricket project, the team embarked on a new project titled "Calculating the Screen Time of Actors in any Video with Deep Learning." With guidance from industry experts, the planning and implementation of this project were successfully completed. This experience provided valuable insights into real-world industrial project approaches.
+
+Date: Day-12
+
+Next Steps: Pondering on future project ideas
+---
+#
+
+# Project Details
+
+# Project Details
+
+# Chapter 1: Introduction
 
 # 1.1 Aim of the Project
 
-Cricket streaming rights sky-rockets every new season, but still there is very limited innovation here. The task of classifying and generating highlights is currently done manually, but could be automated to some extent to make the process more dynamic. With this project we plan to build a Ball by Ball Event Classification and Highlights generation from a cricket match using deep learning approach.
+To develop a deep learning-based solution for analyzing videos from the popular 'Tom and Jerry' cartoon series and calculating the screen time of both 'Tom' and 'Jerry' in any given video. This project addresses the challenge of quantifying the amount of time these characters appear on the screen, providing valuable insights into their presence within the video content. The goal is to create a tool that can automate the screen time calculation process, which is of significant importance for actors, as it directly impacts their compensation.
 
 # 1.2 Project Scope
 
-Our website caters to a diverse audience of cricket enthusiasts, including casual viewers seeking updated information and personalized highlights, sport analysts and commentators seeking deeper insights for informed commentary, and media and content creators, including social media influencers and journalists, looking for engaging content and discussion points to share with their followers.
+This project's significance lies in its potential applications for content creators, media companies, and actors who rely on accurate screen time measurements. By accurately quantifying the time each character appears on the screen, the project could provide valuable insights for the entertainment industry, potentially leading to better compensation models for actors based on their actual screen time. It has potential in advertisement revenue management, like in sports watching.
 
 # 1.3 Project Objective
 
-We aim to label each moment of the match, making it easy to display events and revisit them later if missed in real-time. Additionally, we plan to optimize the system architecture to provide low-latency event classification. The highlights will be dynamically generated based on the identified key events, with consideration of the user's preferences.
+# 1.3.1 Develop an Accurate Screen Time Detection Model:
+
+The primary objective is to create a robust deep learning model that can accurately detect and track the appearances of characters, such as Tom and Jerry, in video content. This involves implementing state-of-the-art computer vision techniques to handle complex scenes, occlusions, and character movements, ensuring precise screen time measurements.
 
 # 1.4 Project Modules
 
-# 1.4.1. User registration and Authentication:
+# 1.4.1 Video Preprocessing
 
-This module is the entry point to a customized experience on our platform. Users can register and set up their profiles, which guarantees a safe login process. This module not only secures user information but also facilitates a personalized experience by enabling users to specify their preferences and keep track of their activity.
+This module focuses on video preprocessing, frame extraction, and object detection. It would include technologies like OpenCV and deep learning models for object detection (e.g., CNN, Faster R-CNN). Additionally, it may involve techniques for tracking objects across frames and accuracy of object identification.
+
+# 1.4.2 Machine Learning and Deep Learning Module:
+
+Content for Module 1.4.2 goes here...
 ---
 #
 
-# Event Classification in Cricket with AI
+# OCR Text Information
 
-# Event Classification in Cricket with AI
+# OCR Text Information
 
-# Event Classification and Display
+Name: Patel Manmeet
 
-At the heart of our platform, this module utilizes deep learning algorithms to classify live cricket events such as wickets, fours, sixes, and none. The classified events are displayed in real-time, offering users an insightful breakdown of the ongoing match. This feature enriches the viewing experience and helps catch up on important events.
+Student ID: 21IT456
 
-# Customized Highlights Generation
+# Module: Core Algorithms for Screen Time Calculation
 
-Catering to diverse user preferences, this module allows users to generate personalized match highlights. Whether it's a compilation of every boundary in a match or a focus on key wickets, users can create their own highlight reels. This not only enhances engagement but also allows fans to relive their favorite moments from the match as per their interests.
+This module focuses on developing core algorithms for screen time calculation using deep learning architectures to detect and track actors in video frames. Libraries such as TensorFlow or PyTorch will be utilized for model development and training.
 
-# Prediction Leader-board
+# Data Visualization and Reporting Module
 
-Engaging users in a fun and competitive way, the Prediction Leader-board module lets users predict outcomes of live match events. The predicted answers are compared with classified events by our algorithm. Correct predictions earn points, placing users on a leader-board where they compete with fellow cricket enthusiasts. This module adds an interactive layer to match viewing and creates opportunities for sponsors for their giveaways.
+This module emphasizes data visualization techniques and reporting tools to effectively convey results. Libraries like Matplotlib, Seaborn, Tableau, or Power BI will be used to present insights from screen time analysis, providing clear and actionable information to stakeholders in the entertainment industry.
 
 # Project Basic Requirements
 
-# Hardware Requirements:
+1. Training video: tom_jerry.mp4
+2. Test video: evaluate_tom_jerry.mp4
+3. Label image for train: mapping.csv
+4. Store label for test: test.csv
+5. Libraries:
+- Numpy
+- Pandas
+- Matplotlib
+- Keras
+- Skimage
+- OpenCV (cv2)
 
-- A system with a minimum of 8GB RAM.
-- A Multi-core processor, intel® i-7 4-core.
-- Intel® UHD Graphics 620, for training classification algorithm video processing.
-
-# Software Requirements:
-
-- React.js framework for front-end development.
-- MongoDB as a database management system.
-- Express.js framework for back-end development.
-- Git for version control.
+Page Number: 26
 ---
 #
 
-# Event Classification in Cricket with AI
+# Video Preprocessing
 
-# Event Classification in Cricket with AI
+# Chapter 2: Analysis, Design Methodology and Implementation Strategy
 
-# Tech Stack Details:
+# 2.1 Video Preprocessing:
 
-- TensorFlow, PyTorch, and Keras Frameworks for building networks.
-- NumPy, Pandas Data Processing Libraries for handling datasets.
+Videos are nothing but a collection of a set of images. These images are called frames and can be combined
+to get the original video. So, a problem related to video data is not that different from an image classification
+or an object detection problem. There is just one extra step of extracting frames from the video.
 
-# Approaches Used:
+# 2.1.1 Import and read the video, extract frames from it, and save them as images:
 
-The project utilized TensorFlow, PyTorch, and Keras frameworks for building neural networks. NumPy and Pandas were used for data processing to handle datasets efficiently.
+The initial step in the project involves the ingestion of video data. By utilizing libraries such
+as OpenCV, the video is imported and read frame by frame, with each frame treated as an
+image. These frames are sequentially extracted and subsequently saved as individual image
+files, usually in JPEG or PNG format, to form a comprehensive collection of images
+representing the video's content.
 
-# Diagrams:
+Figure 1: Extracted frame
 
-#
-#
+# 2.1.2 Label a few images for training the model:
 
-# Event Classification in Cricket with AI
-
-# Event Classification in Cricket with AI
-
-# Tech Stack Details:
-
-- TensorFlow, PyTorch, and Keras Frameworks for building networks.
-- NumPy, Pandas Data Processing Libraries for handling datasets.
-
-# Approaches Used:
-
-The project utilized TensorFlow, PyTorch, and Keras frameworks for building neural networks. NumPy and Pandas were used for data processing to handle datasets efficiently.
-
-# Diagrams:
+In some instances, a subset of these images may require manual labeling to indicate the
+presence of specific elements, such as the actors Tom and Jerry, serving as the ground truth.
 ---
 #
 
-# Event Classification in Cricket with AI
+# Document
 
-# CHAPTER 2: Analysis, Design Methodology, and Implementation Strategy
+# Patel Manmeet (21IT456)
 
-# 2.1 Comparison of Existing Applications with Your Project
+# 2.2 Machine Learning and Deep Learning Module
 
-# 2.1.1 From Subjectivity to Precision:
+# 2.2.1 Building the Model:
 
-Traditional manual methods rely on human interpretation, which can introduce variability in event classification. Our automated system, on the other hand, uses deep learning to ensure objective and consistent accuracy, thereby enhancing the quality of event recognition.
+We need to make changes to these images similar to the ones we did for the training images. We will preprocess the images, use the base_model.predict() function to extract features from these images using the VGG16 pretrained model, reshape these images to 1-D form, and make them zero-centered. We have a hidden layer with 1,024 neurons and an output layer with 3 neurons (since we have 3 classes to predict).
 
-# 2.1.2 Speed of Delivery:
+# 2.2.2 Compiling the Model:
 
-The manual creation of highlights is a slow and labor-intensive process. Conversely, our automated approach promises near-instant highlight generation, transforming hours of footage into captivating moments in real-time.
+Compiling a deep learning model for a screen time calculation project involves several key steps. First, choose an optimizer, such as Adam or SGD, to define how the model's weights will be updated during training. Then, select an appropriate loss function to measure the disparity between predicted and actual screen times.
 
-# 2.1.3 Scaling New Heights:
+# 2.2.3 Training the Model:
 
-Manual processing struggles to keep pace with multiple simultaneous matches, as it is limited by human capacity. Our system breaks these boundaries, effortlessly scaling to accommodate numerous games.
-
-# 2.1.4 Customized Viewing Experience:
-
-Whereas manual methods offer a one-size-fits-all approach, our system stands out by personalizing content. It uses viewer preference data to tailor highlights to individual tastes, thereby deepening viewer engagement.
+During training, the model adjusts its parameters to minimize the difference between its predictions and the actual target values in the training data. This iterative process uses optimization techniques to fine-tune the model, making it capable of making accurate predictions on unseen data. Training typically involves splitting data into training and validation sets, selecting an appropriate loss function and optimization algorithm, and setting hyperparameters.
 ---
 #
 
-# Event Classification in Cricket with AI
+# Software and Tools Utilized in Project Implementation
 
-# Event Classification in Cricket with AI
+# Software and Tools Utilized in Project Implementation
 
-# 2.1.5. Economic Efficiency:
+# Chapter 3: Implementation and Testing
 
-The shift from manual labor to an automated system translates into significant cost savings. While the initial investment focuses on technology development, the long-term efficiency and reduced reliance on manual processes make it economically advantageous.
+# 3.1 Software and Tools
 
-# 2.1.5. Uniform Quality Assurance:
+The implementation of the project involves the use of a variety of software and tools across different stages of the project. Here is a comprehensive list of the software and tools utilized:
 
-Human-dependent processes inherently vary in consistency. Our automated system, immune to such fluctuations, promises a reliable and uniform quality of output, ensuring every highlight is of top-notch quality.
+# 3.1.1 Video Preprocessing
 
-# 2.2 Project Feasibility Study
+- # Python:
 
-# 2.2.1. Technical Feasibility:
+Description: Python serves as the primary programming language for implementing various data preprocessing tasks.
 
-This involves the ability to implement and fine-tune deep learning models for accurate cricket event classification through research and development. Additionally, the handling of high-quality cricket match data for model training and validation needs to be evaluated. The availability of necessary hardware like GPUs for deep learning and software like programming languages and frameworks also needs to be considered.
+Purpose: Python's extensive libraries and flexibility make it suitable for handling data and performing essential preprocessing steps.
+- # pandas:
 
-# 2.2.2. Legal Feasibility:
+Description: Pandas is a powerful data manipulation library in Python.
 
-This includes understanding and complying with legal restrictions related to broadcasting and replaying cricket match footage. Adhering to applicable data protection laws in handling user data, especially if personalization features are incorporated, is also necessary. Preparing for legal agreements necessary for content access and partnerships is also essential.
+Purpose: It is used for tasks such as handling missing values, data format conversion, and creating unified "tags" columns.
+- # OpenCV:
 
-# 2.2.3. Market Feasibility:
+Description: OpenCV is a powerful data manipulation library in Python.
 
-Market demand analysis needs to be conducted to investigate the demand for AI-driven sports event classification and highlight generation among cricket audiences and media outlets. Identifying existing market solutions and positioning our project in terms of innovation and value addition is also important. Exploring collaboration possibilities with sports media entities.
+Purpose: It is used for tasks such as handling missing values, data format conversion, and creating unified "tags" columns.
+- # keras:
+
+Description: Keras is an open-source deep learning framework that provides a high-level, user-friendly interface for building, training, and deploying neural networks.
+
+Purpose: It simplifies the process of developing machine learning models and is widely used for various AI applications, including image and text classification, object detection, and natural language processing.
+- # skimage:
+
+Description: Scikit-Image (skimage) is an open-source image processing library in Python used for tasks like image manipulation, analysis, and computer vision.
 ---
 #
 
-# Event Classification in Cricket with AI
+# Tech Tools Overview
 
-# Event Classification in Cricket with AI
+# Collaboration and Communication
 
-# Operational Feasibility:
+# a) GitHub:
 
-This includes designing a user interface that is intuitive for both general users seeking match highlights and administrators overseeing system operations. It also involves ensuring that the system is reliable, especially during peak times like live matches, and establishing a robust maintenance plan. Planning for potential scaling needs to accommodate large user bases and high data volumes during major tournaments is also essential.
+Description: GitHub is a web-based platform for version control and collaboration.
 
-# Project Timeline Chart
+Purpose: It is used for hosting the project repository, enabling collaboration, and tracking issues and enhancements.
+
+# Text Editors or IDEs
+
+# VSCode:
+
+Description: VSCode is an integrated development environment (IDE) for Python.
+
+Purpose: It is used for coding, debugging, and managing the project.
+
+# Notebooks
+
+# Google Colab:
+
+Description: Google Colab is an open-source web application that allows you to create and share documents containing live code, equations, visualizations, and narrative text.
+
+Purpose: Google Colab is used for exploratory data analysis, prototyping, and presenting code in an interactive manner.
+
+# Implementation Snapshot
+
+Provide snapshots or snippets of key parts of the implementation. This could include code snippets demonstrating data preprocessing, vectorization, and the recommendation algorithm. Screenshots of the web interface during testing may also be included.
+
+Page 30
 ---
 #
 
-# Event Classification in Cricket with AI
+# OCR Text Analysis
 
-# Event Classification in Cricket with AI
+# OCR Text Analysis
 
-# 2.4 Detailed Modules Description
+# Model Summary
 
-# 2.4.1. User registration and Authentication:
+- Model Type: Sequential
 
-This module is the entry point to a customized experience on our platform.
+**Layer Information**
+|Layer (type)|Output Shape|Param|
+|---|---|---|
+|Dense (Dense)|(None, 1024)|25691136|
+|Dense (Dense)|(None, 3)|3075|
 
-# Functions:
+Total Params: 25694211 (98.02MB)
 
-- Users can register and set up their profiles, which guarantees a safe login process.
-- This module not only secures user information but also facilitates a personalized experience by enabling users to specify their preferences and keep track of their activity.
+Trainable Params: 25694211 (98.02MB)
 
-# 2.4.2. Event classification and display:
+Non-trainable Params: 0.00 Byte
 
-At the heart of our platform, this module utilizes deep learning algorithms to classify live cricket events such as wickets, fours, sixes, and none.
+# Model Compilation
 
-# Functions:
+Loss Function: Categorical Crossentropy
 
-- The classified events are displayed in real-time, offering users an insightful breakdown of the ongoing match.
-- This feature enriches the viewing experience and helps users catch up on important events.
+Optimizer: Adam
 
-# 2.4.3. Customized highlights generation:
+Metrics: Accuracy
 
-This module caters to diverse user preferences, allowing users to generate personalized match highlights.
+# Model Training
 
-# Functions:
+Epoch 1/100: Loss: 0.8346, Accuracy: 0.5944, Val Loss: 0.4602, Val Accuracy: 0.8710
 
-- Users can create their own highlight reels, whether it's a compilation of every boundary in a match or a focus on key wickets.
-- This enhances engagement and allows fans to relive their favorite moments from the match as per their interests.
+Epoch 2/100: Loss: 0.2423, Accuracy: 0.9441, Val Loss: 0.2722, Val Accuracy: 0.9194
 
-# 2.4.4. Prediction Leader-board:
+Epoch 3/100: Loss: 0.1140, Accuracy: 0.9860, Val Loss: 0.2172, Val Accuracy: 0.9355
 
-Engaging users in a fun and competitive way, the Prediction Leader-board module lets users predict outcomes of live match events.
+Epoch 4/100: Loss: 0.0654, Accuracy: 0.9860, Val Loss: 0.1867, Val Accuracy: 0.9355
 
-# Functions:
+Epoch 5/100: Loss: 0.0464, Accuracy: 0.9860, Val Loss: 0.1909, Val Accuracy: 0.9194
 
-- The predicted answers are compared with classified events by our algorithm. Correct predictions earn points, placing users on a leader-board where they compete with fellow cricket enthusiasts.
-- This module adds an interactive layer to match viewing and creates opportunities for sponsors for their giveaways.
+Epoch 6/100: Loss: 0.0332, Accuracy: 0.9930, Val Loss: 0.1801, Val Accuracy: 0.9194
+
+Epoch 7/100: Loss: 0.0221, Accuracy: 0.9930, Val Loss: 0.1733, Val Accuracy: 0.9516
+
+Epoch 8/100: Loss: 0.0160, Accuracy: 1.0000, Val Loss: 0.1760, Val Accuracy: 0.9516
+
+Epoch 9/100: Loss: 0.0129, Accuracy: 1.0000, Val Loss: 0.1844, Val Accuracy: 0.9355
+
+Epoch 10/100: Loss: 0.0106, Accuracy: 1.0000, Val Loss: 0.1932, Val Accuracy: 0.9355
+
+Epoch 11/100: Loss: 0.0091, Accuracy: 1.0000, Val Loss: 0.1986, Val Accuracy: 0.9355
+
+Epoch 12/100: Loss: 0.0081, Accuracy: 1.0000, Val Loss: 0.2004, Val Accuracy: 0.9355
+
+Epoch 13/100: Loss: 0.0073, Accuracy: 1.0000, Val Loss: 0.1994, Val Accuracy: 0.9355
+
+Epoch 14/100: Loss: 0.0067, Accuracy: 1.0000, Val Loss: 0.1989, Val Accuracy: 0.9355
+
+Epoch 15/100: Loss: 0.0061, Accuracy: 1.0000, Val Loss: 0.2005, Val Accuracy: 0.9355
 ---
 #
 
-# Event Classification in Cricket with AI - Project SRS
+# OCR Text
 
-# Project SRS
+Patel Manmeet (21IT456)
 
-# Use Case Diagrams
+print( "Thescreentime
 
-Use Case Diagram Description: The diagram illustrates the various interactions and functionalities of the Cricket Event Classification System. It includes use cases such as Login, Authenticate, Register, Browse content, Search content, Save content, Stream content, Predict outcome, Generate highlights, Customize highlights, and DB Admin.
+print(Thescreentimeof JERRY is"predictions [predictions--2]predictionspredicctions--l]. shape[0],secondsseconds
+
+TOM is shape[0] =
+
+Thescreen time of JERRY is 54 seconds
+
+Thescreen timeof TOM is 124 seconds
+
+Figure 6: Result on evaluate_tom_jerry.mp4
+
+32
 ---
 #
 
-# Event Classification in Cricket with AI
+# Conclusion
 
-# Data Flow Diagram
+# Chapter 4: Conclusion
 
-# Level-0:
+First, I tried using the pretrained model without removing the top layer. The results were not satisfactory. The possible reason could be that these are the cartoon images and our pretrained model was trained on actual images and hence it was not able to classify these cartoon images. To tackle this problem, I retrained the pretrained model using a few labeled images and the results were better than the previous results.
 
-# Level-1:
+We achieved an accuracy of around 88% on the validation data and 64% on the test data using this model.
+
+One possible reason for getting a low accuracy on the test data could be a lack of training data. As the model does not have much knowledge of cartoon images like TOM and JERRY, we must feed it more images during the training process. My advice would be to extract more frames from different TOM and JERRY videos, label them accordingly, and use them for training the model. Once the model has seen a plethora of images of these two characters, there’s a good chance it will lead to a better classification result.
+
+Such models can help us in various fields:
+
+- We can calculate the screen time of a particular actor in a movie
+- Calculate the screen time of your favorite superhero, helpful in fan wars!!
+- From a business point of view, it could be helpful in advertisement revenue management.
+- Like in sports watching, the cost of advertisement could be different based on viewers.
+
+These are just a few examples where this technique can be used.
 ---
 #
-
-# Event Classification in Cricket with AI
-
-# Event Classification in Cricket with AI
-
-# Level-2:
-
-Clippings Requirements:
-
-- Parameters for Highlights 3.1
-- Parameters for Highlights 3.2
-- Parameters for Highlights 3.3
-
-# User:
-
-Verily choose custom highlights
-
-Database match ordered clippings
-
-Figure 2.5.2: DFD Level 2
-
-# Entity Relationship Diagrams
-
-uname ema
-
-Lq pass Ord
-
-User
-
-Access
-
-Kaich Katch
-
-Players Leaceroar
-
-Scores Contains
-
-Match
-
-Tournament
-
-Venue
-
-Figure 2.5.3: E-R Diagram
----
-#
-
-# Event Classification in Cricket with AI
-
-# Event Classification in Cricket with AI
-
-# 2.5.4 Event Trace Diagram
-
-Cricket event Classification System interacts with the Database through various events as shown in the diagram:
-
-- User requests registration
-- Registration success
-- User requests login
-- Login success
-- Send content order
-- Process to create content
-- Send content
-- Logout
-- Confirm logout
-
-Figure 2.5.4: Event Trace Diagram
----
-#
-
-# Event Classification in Cricket with AI
-
-# State Diagram
-
-This state diagram illustrates the flow of events in the cricket event classification system. It shows the different states and transitions involved in the process.
----
-#
-
-# Event Classification in Cricket with AI
-
-# Class Diagram
-
-This class diagram represents the relationships between different classes in the project:
-- User class with attributes: name, email, password
-- Leaderboard class with methods: getTopLeaders(), getStandings()
-- Content class with attributes: content_Id, title, duration
-- Match class with methods: getMatchDetails(), customizeHighlights()
-- Saved class with methods: saveContent(), removeSavedContent(), manageStorage()
-- Highlights class with attributes: customDuration, matchTitle, customSpecifics
----
-#
-
-# Event Classification in Cricket with AI
-
-# Database Design and Normalization
-
-# Table Name: Match
-
-Description: to store match details
-
-Primary Key: Match_id
-
-Sr. No.
-Name
-Data Type
-Constraint
-Description
-
-1
-Match_id
-INT
-Primary Key
-Unique match id
-
-2
-Match_tournament
-VARCHAR(50)
-Not Null
-Store the name of tournament
-
-3
-Match_name
-VARCHAR(100)
-Not Null
-Match’s unique name
-
-4
-Match_date
-DATE
-Not Null
-Match’s date
-
-5
-Match_venue
-VARCHAR(100)
-Not Null
-Venue of the match
-
-# Table Name: Classified event
-
-Description: To store information of classified event
-
-Primary Key: Clip_id
-
-Sr. No.
-Name
-Data Type
-Constraint
-Description
-
-Match_id
-INT
-Foreign Key
-Unique match id
-
-Clip_id
-INT
-Primary Key
-Unique id of every clip
-
-Start_time
-INT
--
-Starting time of clip
-
-End_time
-INT
--
-Ending time of clip
-
-Event
-VARCHAR
--
-Name of classified event
----
-#
-
-# Event Classification in Cricket with AI
-
-# Event Classification in Cricket with AI
-
-# Table Name: User
-
-Description: to store user credentials
-
-Primary Key: Email_id
-
-Sr. No.
-Name
-Data Type
-Constraint
-Description
-
-1
-User_name
-VARCHAR(50)
-Unique
-Unique identifier for the user
-
-2
-Email_id
-VARCHAR(50)
-Primary Key
-Email address of the user
-
-3
-Password
-VARCHAR
-Not Null
-User’s Password
-
-# Table Name: Leader Board
-
-Description: to store information regarding leader board winnings
-
-Foreign Key: Match_id
-
-Sr. No.
-Name
-Data Type
-Constraint
-Description
-
-1
-Match_id
-INT
-Foreign Key
-Unique match id
-
-2
-User_name
-VARCHAR(100)
-Not Null
-Unique user identity
-
-3
-Points
-INT
--
-Points user scored
----
-#
-
-# Event Classification in Cricket with AI - Implementation and Testing
-
-# CHAPTER 3: Implementation and Testing
-
-# 3.1 Software and tools
-
-# 3.1.1 Front-End Development
-
-For the frontend development of the cricket event classification and highlights generation platform, React.js is utilized as the primary framework due to its component-based architecture and efficient rendering. Alongside React.js, HTML, CSS, and JavaScript (ES6+) were employed for structuring web pages, styling the user interface, and adding interactivity. Additionally, Redux is used for state management, and Bootstrap streamlined development with pre-designed components and responsive layouts.
-
-# 3.1.2 Back-End Development
-
-Express.js served as the framework for building RESTful APIs and handling server-side logic, while MongoDB is used as the database management system for storing and retrieving data related to user profiles, match events, and preferences. Node.js provided the runtime environment for server-side JavaScript execution, and Git for version control. FFMpeg was employed for merging video files for highlights generation. For the requirement of continuously sending data to client from server for Server-Sent Events(SSE).
-
-HTML:
----
-#
-
-# Event Classification in Cricket with AI
-
-# User Interface and Snapshot
-
-# Login
-
-The login page features essential fields for users to input their email address and password, along with a prominent "Submit" button. Once users enter their credentials and click "Submit," the data is sent to the Mongoose Compass, where it is securely stored in the database. This process ensures that user login information is safely managed and accessible for authentication purposes, contributing to a seamless and secure user experience on the platform.
-
-Figure 3.2.1: Login System
----
-#
-
-# Event Classification in Cricket with AI
-
-# Event Classification in Cricket with AI
-
-3.2.2 Sign-up Page
-
-The signup page provides users with fields to input their email address, password, and username, essential for creating a new account. Upon completion, users are redirected to the home page, where they can begin exploring the platform's features and content. This streamlined process ensures a smooth transition for new users, allowing them immediate access to the platform's offerings after registration.
-
-Epic Cricket Content: Unleash the Excitement!
-
-Explore the thrill of cricket matches right on our website! Dive into live updates, match highlights, expert analyses, and exclusive interviews with your favorite cricket stars. Whether it's the latest scores, captivating moments, or in-depth insights into the cricketing world, from exhilarating boundary shots to biting finishes, immerse yourself in the excitement of every match, right from the comfort of your screen.
----
-#
-
-# Event Classification in Cricket with AI
-
-# 3.2.3 Home-page
-
-Chalco MoilPr Cmucp Elt Ihost 3000/match
-
-Home MatchesHighlightsLeadarboard
-
-IND VS AUS
-
-PAK VS AUS
-
-Figure 3.2.3: Home page
-
-Step into the world of cricket with our website's inviting homepage, where a sleek navigation bar awaits to guide you seamlessly through our platform's offerings. Scroll down to discover captivating visuals and a concise description of our features. At the bottom, our footer houses all contact details, ensuring easy communication. Welcome to an immersive cricket experience designed just for you.
-
-19
----
-#
-
-# Event Classification in Cricket with AI
-
-# Event Classification in Cricket with AI
-
-# Event Classification and Display
-
-The "Matches" section serves as a hub for users to access ongoing matches, displaying a list of current matches available for viewing. Upon selection of a specific match, users are redirected to the live match page where event classification is predicted in real-time.
-
-Alongside the match classification, a side box displays the Prediction Leaderboard, engaging users in interactive match predictions. This dynamic feature enriches the viewing experience by providing live match updates and fostering user participation through predictions, enhancing overall engagement with the platform.
-
-# Classification Model
-
-The classification model employed in the platform analyzes cricket videos, categorizing each ball delivery into four distinct classes: "No Run," "Boundary," "Wicket," and "Run." This model operates by leveraging deep learning algorithms to identify and classify the outcomes of each ball delivery in real-time. By accurately distinguishing between different event types, including.
-
-# Diagram: Event Classification and Display
----
-#
-
-# Event Classification in Cricket with AI
-
-# Event Classification in Cricket with AI
-
-Boundaries, wickets, and runs, the model enhances the platform's ability to provide users with comprehensive and informative match highlights, thereby enriching their viewing experience.
-
-# Customize Highlights Generation
-
-The Customized Highlights Generation feature empowers users to curate personalized match highlights tailored to their preferences. Users input their desired criteria, such as specific events like boundaries or wickets, and the platform generates customized highlight videos accordingly.
-
-The screenshot showcases the user interface where users can select their preferences, with the adjacent section displaying the dynamically generated customized highlight videos in real-time. This interactive functionality enhances user engagement by allowing them to relive their favorite moments from the match according to their interests, thereby fostering a deeper connection with the game.
-
-Figure 3.2.5: Customized Highlights
----
-#
-
-# Event Classification in Cricket with AI
-
-# Leader Board
-
-To foster user participation, encourage community interaction, and create opportunities for sponsors to engage with the audience through giveaways and promotions, this feature is included. Here users can take a quiz on the website while streaming match, revisiting events or in between generating personalized highlights.
-
-The leaderboard displays the usernames of participants along with their current point totals, ranking them in descending order based on their scores. Users can track their progress and compare their standings with other participants, fostering a sense of competition and camaraderie among users. The leaderboard is updated dynamically using technologies such as Server-Sent Events (SSE) or WebSocket connections.
----
-#
-
-# Event Classification in Cricket with AI
-
-# Testing Using Use Cases
-
-# User Authentication:
-
-This test case focuses on the user authentication process, which includes sign-up and sign-in functionalities. The figure likely illustrates the flow of steps or the user interface elements involved in the authentication process, such as entering credentials, verifying information, and granting access to the application.
----
-#
-
-# Event Classification in Cricket with AI
-
-# Event Classification in Cricket with AI
-
-# Clipping and Classification
-
-This test case covers the backend process of the application, specifically the clipping and classification of data or content. The figure might depict the workflow or the architecture of the backend system, including components responsible for segmenting or extracting relevant clips from a larger dataset and classifying or categorizing those clips based on specific criteria or models.
-
-Figure 3.3.2: Clipping and Classification
----
-#
-
-# Event Classification in Cricket with AI
-
-# Merging clips (For customized highlights)
-
-This test case addresses the generation of customized highlights by merging individual clips. The figure is likely illustrating the process or the algorithm involved in combining multiple clips, potentially based on user preferences or predefined rules, to create a curated or personalized highlight reel or summary.
-
-# Figure 3.3.3: Merging clips
-
-OUTLINE
-
-Merged Video Path: /Users/MaxNewton/Desktop/new2/backend/outputFolder/merged_1715687325064.mp4
-
-TIMELINE
-
-89 main" @ 0 4 3 Ln 347, Col Spaces: UTF-8 CRLF JavaScript Go Live
----
-#
-
-# Event Classification in Cricket with AI - Conclusion and Future Work
-
-# CHAPTER 4: Conclusion and Future Work
-
-# 4.1 Conclusion
-
-Our application opened up new perspectives on cricket streaming. It also revealed AI's ability to transform many aspects of today's world for the betterment of humanity. Despite the challenges faced during this project, we are confident that with additional work, we can provide a more solid and production-ready solution. Our passion for this subject has driven us to explore and achieve our goals.
-
-# 4.2 Future Work
-
-Due to the complexity of this project, there are limitations in terms of accuracy and latency. In the future, we aim to overcome these limitations by implementing the following:
-
-- Expand the dataset by outsourcing to generate a larger and more diverse dataset to improve accuracy in event classification.
-- Implement optimizations in the system architecture and data processing pipeline to minimize latency in event classification and highlight generation.
-- Optimize algorithms for faster inference, utilize hardware acceleration like GPUs or specialized inference chips, and optimize database queries and network communication for real-time performance.
-- Work towards productionizing the solution once it meets the required parameters.
-
-By addressing these future works, we aim to enhance the accuracy and efficiency of our event classification system in cricket.
----
-#
-
-# Event Classification in Cricket with AI
-
-# Event Classification in Cricket with AI
 
 # References
 
-# Websites:
+# References
 
-- Keras
+- Project idea and Reference: Deep Learning Video Classification
+- Datasets: YouTube Datasets
+- Andrej Karpathy Video Lectures: Video Lectures
+- Python documentation: Python Documentation
+- streamlit documentation: Streamlit Documentation
+- pandas documentation: Pandas Documentation
+- numpy documentation: NumPy Documentation
+- Project github repository: GitHub Repository
+
+34
+#
+# Internship Report
+
+# INTERNSHIP REPORT
+
+Under Subject of Data Science and Analytics
+
+SUMMER INTERNSHIP - 1(ITIS1)
+
+B.Tech. SEMESTER-V
+
+# Submitted by
+
+Patel Manmeet Miteshkumar (21IT456)
+
+G1LKARMA
+
+ABHVDYNNAGA
+
+WORKISWORSHIP
+
+Information Technology Department
+
+Birla Vishvakarma Mahavidyalaya Engineering College
+
+(An Autonomous Institution)
+
+AY: 2022-23, Semester II
+---
+#
+# Internship Certificate
+
+# CERTIFICATE
+
+This is to certify that Patel Manmeet Miteshkumar with ID Number 21IT456 has been successfully completed summer Internship -1 (ITIS1) at SmartSense Consulting Solutions Pvt. Ltd. under the guidance of Prof. Kanu Patel during the academic year 2022-23, Semester II.
+
+Date: 19/10/23
+
+Prof. Kanu Patel
+
+IT Department
+
+Birla Vishvakarma Mahavidyalaya Engineering College
+---
+#
+
+# Table of Contents
+
+# Table of Contents
+
+|Sr no.|Topic|Page no.|
+|---|---|---|
+|1.|Completion letter|4|
+|2.|Acknowledgment|5|
+|3.|Company profile|6|
+|4.|Executive summary|7|
+|5.|Daily tasks|8|
+|6.|Chapter 1: Introduction|25|
+|7.|Chapter 2: Analysis, Design Methodology, and Implementation Strategy|27|
+|8.|Chapter 3: Implementation and testing|29|
+|9.|Chapter 4: Conclusion|33|
+|10.|References|34|
+---
+#
+# Completion Letter
+
+# CERTIFICATE OF PARTICIPATION
+
+THIS CERTIFICATE IS AWARDED TO
+
+# MANMEET Patel
+
+for his/her successful completion of TWO week Summer Internship on "Data Science and Analytics" organized by Information Technology Department, BVM in association with smartSense Consulting Solutions Pvt. Ltd, Gandhinagar during 12th June, 2023 to 24th June, 2023
+
+MR. MAYUR PABARI
+
+CEO & President, smartSense Consulting Solution Pvt. Ltd.
+
+DR. KEYUR BRAHMBHATT
+
+Head, Information Technology Dept., BVM
+
+DR. INDRAJIT N. PATEL
+
+Principal, BVM
+---
+#
+
+# Acknowledgment
+
+# Patel Manmeet (21IT456)
+
+# Acknowledgment
+
+I wish to express my profound gratitude to the entire SmartSense team, specifically, Mr. Mayur J. Pabari, Mr. Krupal Purohit, Mr. Sudip Das, and Mr. Suraj Zala, for their invaluable guidance and unwavering support throughout the duration of my internship. Each of these experts possesses an impressive depth of knowledge in their respective roles, and their expertise played an instrumental role in facilitating my rapid progress in the expansive and forward-looking field of Machine Learning and Artificial Intelligence.
+
+I would also like to extend my appreciation to Birla Vishvakarma Mahavidyalaya, our esteemed Principal, Prof. (Dr.) Indrajit Patel, the Head of the IT Department, Mr. Keyur Brahmbhatt, and the Coordinators, Ms. Zankhana Shah and Mr. Dharmesh Patel. It is through their gracious provision of this exceptional opportunity that I was able to gain practical, hands-on experience and receive invaluable lessons from industry luminaries.
+---
+#
+
+# Company Profile
+
+# Company Profile
+
+smartSense Consulting Solutions Pvt Ltd:
+
+Website: https://www.smartsensesolutions.com/
+
+# Aim:
+
+Our aim is to remain one of the most innovative organizations around the world that provides concrete solutions to the clients in various domains around the globe. And we believe that it always makes smart sense if the customer wins. That’s why our product solutions, ranging from Education domain, well-developed organisations, to smartHome, have been customized to extend the benefits of our customers.
+
+# Mission:
+
+Our mission is to continue implementing smart development Solutions for the customers and providing them outstanding IT services. We always keep the business perspective along with the technical knowledge in order to help our clients develop robust platform technically as well as practically. All in all “Customer’s Win is our Mission”.
+
+# Expertise:
+
+Blockchain | Data Science | Web development | Mobile app development | Internet of things | Database and server management | Quality analysis
+---
+#
+
+# Resume
+
+# Patel Manmeet (21IT456)
+
+# Executive Summary
+
+During my two weeks of work as a summer intern, I learned a lot about data science and analytics. It was mostly concentrated on the machine learning component, which was entirely new to me. I discussed machine learning fundamentals including supervised and unsupervised learning. Additionally, I learned some fundamentals of elastic search, neural networks, deep learning, and APIs. At the end of it, I started working on my first machine learning project under experts' guidance. In that, first of all, I executed a simple feed forward neural network from scratch for XOR functionality. Then tried to create a cricket match highlights generating model using CNN+RNN. Eventually created a model for calculating the screen time of actors in any video with deep learning.
+---
+#
+
+# Manmeet Patel's Daily Tasks
+
+# Manmeet Patel (21IT456) - Daily Tasks
+
+# Day-1:
+
+Introduction to ML and Python basics
+
+We learnt some of the fundamentals of ML and were introduced to its huge scope.
+
+1. Supervised learning
+2. Supervised Learning is a type of machine learning where the algorithm is trained on a labeled dataset, meaning that the input data consists of both the input features and the corresponding correct output. The goal is for the algorithm to learn a mapping function that can accurately predict the output for new, unseen data.
+
+Unsupervised learning
+3. Unsupervised Learning is a type of machine learning where the algorithm is given input data without explicit instructions on what to do with it. The system tries to learn the patterns and structure from the data without any labeled outputs.
+
+Reinforcement learning
+4. Reinforcement Learning is a type of machine learning where an agent learns to make decisions by interacting with an environment. The agent receives feedback in the form of rewards or punishments, allowing it to learn optimal strategies over time.
+
+Semisupervised learning
+
+Then, we did some basic Python programs and understood the versatility of Python that it provides.
+
+# Day-2:
+
+Content for Day 2 goes here.
+---
+#
+
+# Data Science Concepts
+
+# Difference between AI/ML/DL:
+
+- AI: Engineering of making intelligent programs and machines
+- ML: Ability to learn without being explicitly programmed
+- DL: Learning based on deep neural network
+
+# Data Collection:
+
+Definition: Data collection involves gathering relevant data from various sources to create a dataset that can be used for training and evaluating machine learning models.
+
+# Challenges:
+
+- Data Availability: Sometimes, obtaining sufficient and relevant data can be a challenge.
+- Data Quality: Ensuring that the collected data is accurate and representative of the problem is crucial.
+
+# Data Cleaning:
+
+Definition: Data cleaning involves identifying and correcting errors or inconsistencies in the dataset.
+
+# Challenges:
+
+- Identifying Errors: Detecting errors or inconsistencies in the dataset can be challenging.
+- Balancing Classes: Addressing class imbalances, especially in datasets where certain classes are underrepresented.
+
+# Data Preprocessing:
+
+Definition: Data preprocessing involves transforming raw data into a format suitable for machine learning. It includes cleaning, formatting, and organizing the data.
+
+# Challenges:
+
+- Choosing Imputation Methods: Selecting appropriate methods for imputing missing values.
+- Scaling Challenges: Deciding whether to use normalization or standardization based on the characteristics of the data.
+---
+#
+
+# Classification in Machine Learning
+
+# Classification in Machine Learning
+
+# Definition:
+
+Classification is a supervised learning task where the goal is to predict the categorical class labels of new instances based on past observations. The output is a discrete label or category.
+
+# Key Characteristics:
+
+- Output: Categorical labels or classes (e.g., spam or not spam, digit recognition, sentiment analysis - positive/negative/neutral).
+- Problem Type: Used for problems where the target variable is a category or class.
+- Algorithms: Common algorithms include Decision Trees, Random Forests, Support Vector Machines, Naive Bayes, and Neural Networks.
+- Evaluation Metrics: Accuracy, precision, recall, F1-score, and confusion matrix are commonly used metrics for evaluating classification models.
+
+# Example:
+
+Problem: Email spam detection.
+
+Input Features: Email content, sender, subject, etc.
+
+Output: Spam or Not Spam.
+
+Day-3
+
+Feature Engineering Complexity: Creating meaningful features that enhance model performance.
+
+Patel Manmeet (21IT456)
+---
+#
+
+# OCR Text Analysis
+
+# OCR Text Analysis
+
+# Workflow:
+
+1. Data Collection: Gather labeled data with examples of each class.
+2. Data Preprocessing: Handle missing values, encode categorical variables, and split data into training and testing sets.
+3. Model Training: Use a classification algorithm to train the model on the training data.
+4. Model Evaluation: Evaluate the model's performance on the testing data using appropriate metrics.
+5. Prediction: Use the trained model to predict the class labels of new, unseen instances.
+
+# Regression:
+
+# Definition:
+
+Regression is a supervised learning task where the goal is to predict a continuous numerical value based on input features. The output is a real-valued quantity.
+
+# Key Characteristics:
+
+- Output: Continuous numerical values (e.g., house prices, temperature, stock prices).
+- Problem Type: Used for problems where the target variable is a numeric value.
+
+# Algorithms:
+
+No specific algorithms mentioned in the provided OCR text.
+---
+#
+
+# Regression Algorithms
+
+# Regression Algorithms
+
+Linear Regression, Decision Trees, Random Forests, Support Vector Regression, and Neural Networks are common regression algorithms.
+
+# Evaluation Metrics:
+
+Mean Squared Error (MSE), Mean Absolute Error (MAE), and R-squared are commonly used metrics for evaluating regression models.
+
+# Example:
+
+Problem: Predicting house prices.
+
+Input Features: Size of the house, number of bedrooms, location, etc.
+
+Output: Continuous numerical value representing the price.
+
+# Workflow:
+
+1. Data Collection: Gather labeled data with numerical target values.
+2. Data Preprocessing: Handle missing values, encode categorical variables, and split data into training and testing sets.
+3. Model Training: Use a regression algorithm to train the model on the training data.
+4. Model Evaluation: Evaluate the model's performance on the testing data using appropriate regression metrics.
+5. Prediction: Use the trained model to predict the numerical values of new, unseen instances.
+
+# Key Differences:
+
+Classification:
+
+12
+---
+#
+
+# Linear Regression
+
+# Linear Regression
+
+# Definition:
+
+Linear Regression is a supervised machine learning algorithm used for predicting a continuous outcome variable (dependent variable) based on one or more predictor variables (independent variables). It assumes a linear relationship between the features and the target variable.
+
+# Key Characteristics:
+
+- Equation: The linear regression equation is of the form y=mx+b, where y is the predicted output, x is the input feature, m is the slope, and b is the intercept.
+- Objective: Minimize the sum of squared differences between the actual and predicted values.
+- Use Cases: Predicting house prices, stock prices, or any continuous variable.
+
+# Algorithm:
+
+Linear regression algorithm aims to find the best-fitting straight line by minimizing the sum of squared errors between the actual and predicted values.
+---
+#
+
+# OCR Text Summary
+
+# OCR Text Summary
+
+# Patel Manmeet (21IT456)
+
+# Ordinary Least Squares (OLS)
+
+OLS are often used to find the optimal parameters (slope and intercept).
+
+# Logistic Regression
+
+Definition: Logistic Regression is a classification algorithm used to predict the probability of an instance belonging to a particular class. It is used for binary and multi-class classification problems.
+
+Key Characteristics:
+
+- Equation: Uses the logistic function to map linear combinations of features to values between 0 and 1.
+- Objective: Minimize the log-likelihood function.
+- Use Cases: Spam detection, disease diagnosis, sentiment analysis.
+- Algorithm: Optimized using techniques like Maximum Likelihood Estimation (MLE).
+
+# Stochastic Gradient Descent regression
+
+Definition: Stochastic Gradient Descent (SGD) is an optimization algorithm used for training machine learning models, including linear and logistic regression. It updates the model parameters with each training example.
+
+Key Characteristics:
+
+- Update Rule: Updates model parameters with each training example.
+---
+#
+
+# OCR Text Analysis
+
+# OCR Text Analysis
+
+Patel Manmeet (21IT456)
+
+The parameters are updated with each training example using the gradient of the loss function with respect to the parameters.
+
+Batch Size:
+
+It often works with small batches of data, introducing randomness into the optimization process.
+
+Convergence:
+
+Converges faster than batch gradient descent but may have more oscillations.
+
+Use Cases:
+
+Suitable for large datasets where processing the entire dataset in one go is computationally expensive.
+
+Key Differences:
+
+1. Linear Regression:
+- Output: Continuous values.
+- Objective: Minimize the sum of squared differences.
+2. Logistic Regression:
+- Output: Probabilities between 0 and 1.
+- Objective: Minimize the negative log-likelihood.
+3. Stochastic Gradient Descent:
+- Optimization: Updates model parameters with each training example.
+- Use Cases: Particularly useful for large datasets.
+
+In summary, Linear Regression is for predicting continuous values, Logistic Regression is for classification tasks, and Stochastic Gradient Descent is an optimization algorithm that can be used with both regression and classification models.
+
+15
+---
+#
+
+# OCR Text Summary
+
+# OCR Text Summary
+
+# Day-6
+
+We learned about NumPy and Pandas libraries:
+
+- NumPy: Numerical Python library for large, multi-dimensional arrays and matrices.
+- Pandas: Data manipulation and analysis library with structures like Series and DataFrame.
+
+Further exploration with NumPy and Pandas was done.
+
+# Day-7,8
+
+# Decision Tree
+
+Definition: A supervised machine learning algorithm that uses recursive partitioning based on input features.
+
+Key Characteristics:
+
+1. Nodes:
+- Decision nodes: Represent decisions or tests.
+- Branches: Show outcomes of tests.
+- Leaf nodes: Represent class labels.
+2. Splitting Criteria: Criteria used for partitioning data.
+---
+#
+
+# Decision Trees Overview
+
+# Decision Trees Overview
+
+# Recursive Splitting
+
+The process of splitting continues recursively until a stopping criterion is met, such as a maximum depth or a minimum number of samples per leaf.
+
+# Classification and Regression
+
+Decision Trees can be used for both classification and regression tasks.
+
+# Workflow
+
+1. Root Node:
+Select the best feature to split the data at the root node.
+2. Splitting:
+Recursively split the data into subsets based on feature values.
+3. Stopping Criteria:
+Stop splitting when a stopping criterion is met.
+4. Leaf Nodes:
+Assign class labels to leaf nodes.
+5. Prediction:
+For a new input, traverse the tree to a leaf node and predict the corresponding class.
+
+# Advantages
+
+- Interpretability:
+Decision Trees are easy to interpret and visualize, making them useful for understanding decision-making processes.
+- No Feature Scaling:
+Decision Trees do not require feature scaling.
+---
+#
+
+# Decision Trees and Random Forest
+
+# Decision Trees
+
+Decision Trees do not require feature scaling, making them suitable for datasets with different scales.
+
+# Handling Nonlinear Relationships:
+
+Decision Trees can model nonlinear relationships in the data.
+
+# Limitations:
+
+- Overfitting: Decision Trees are prone to overfitting, capturing noise in the training data.
+- Instability: Small changes in the data can lead to different tree structures.
+
+# Random Forest
+
+# Definition:
+
+Random Forest is an ensemble learning method that constructs a multitude of decision trees during training and outputs the class that is the mode of the classes (classification) or mean prediction (regression) of the individual trees. It builds multiple Decision Trees and merges them together to get a more accurate and stable prediction.
+
+# Key Characteristics:
+
+- Bagging: Random Forest uses a technique called bagging (Bootstrap Aggregating) to train multiple Decision Trees.
+- Random Subsets: Each tree is trained on a random subset of the training data with replacement (bootstrap samples).
+- Random Feature Subset: At each node of the tree, a random subset of features is considered for splitting.
+---
+#
+
+# Random Forest Workflow
+
+# Random Forest Workflow
+
+# Voting or Averaging:
+
+For classification, the mode (most frequent class) of the predictions is taken. For regression, the average of the predictions is considered.
+
+# Workflow:
+
+1. Bootstrapped Samples: Create multiple bootstrapped samples from the training data.
+2. Decision Tree Training: Train a Decision Tree on each bootstrapped sample using a random subset of features at each node.
+3. Voting or Averaging: Combine the predictions of individual trees through voting (classification) or averaging (regression).
+4. Prediction: For a new input, obtain predictions from each tree and combine them.
+
+# Advantages:
+
+1. Reduced Overfitting: Random Forest mitigates overfitting by combining multiple trees.
+2. Improved Generalization: The ensemble nature of Random Forest improves generalization to new data.
+3. Feature Importance: Random Forest provides a measure of feature importance based on the contribution of features to the ensemble.
+
+# Limitations:
+
+1. Complexity:
+---
+#
+
+# OCR Text Summary
+
+# OCR Text Summary
+
+# Random Forest vs. Decision Trees:
+
+Random Forest models can be computationally intensive and may require more resources compared to Decision Trees. While Random Forest provides feature importance, interpreting the entire ensemble can be challenging. Decision Trees are single trees that make decisions based on feature values, while Random Forest is an ensemble of multiple trees that reduces overfitting and improves generalization by combining the predictions of individual trees.
+
+# Day-9: Discrete Input, Discrete Output
+
+Refers to situations where both the input and output are categorical and distinct. In machine learning, this involves making predictions for categorical variables with a discrete set of categories.
+
+# Random Forest:
+
+A sophisticated ensemble learning method that utilizes multiple decision trees. Each tree independently makes predictions, and the final output is determined through voting (for classification) or averaging (for regression). This ensemble approach enhances model robustness and generalization.
+
+# Decision Tree:
+
+An intuitive, hierarchical model that makes decisions based on conditions at each node. It operates like a flowchart, where each internal node represents a test on an attribute, each branch represents the outcome of the test, and each leaf node holds a class label.
+
+# Entropy and Decision-Making:
+
+Entropy is a measure of impurity in decision tree nodes. Achieving a balance between yes and no responses is crucial in decision-making processes.
+---
+#
+
+# OCR Text Summary
+
+# OCR Text Summary
+
+# Decision Trees and Entropy:
+
+Decision trees are effective when there is more entropy, indicating increased uncertainty.
+
+# Bagging and Boosting:
+
+# Bagging:
+
+Technique to reduce model variance by combining predictions from models trained on different subsets of the dataset.
+
+Commonly used with high-variance models.
+
+# Boosting:
+
+Combines multiple weak learners to create a strong learner by iteratively correcting errors.
+
+Reduces bias and enhances overall model performance.
+
+# Recurrent Neural Networks (RNNs):
+
+# RNNs:
+
+Specialized neural networks for processing sequences of data, suitable for time series data or natural language processing.
+
+Introduces concepts like recurrent neurons, layers, and challenges of short-term memory.
+
+# Short-Term Memory Issues:
+
+RNNs face challenges in retaining information over long sequences due to short-term memory limitations.
+
+Introduces solutions like Gated Recurrent Unit (GRU) and Long Short-Term Memory (LSTM) architectures.
+
+# GPT Training Process:
+
+# GPT Training Phases:
+
+Outlines multi-phase training approach for models like GPT.
+
+Key steps include initial language learning, creation of conversational datasets, and reinforcement learning using human feedback.
+
+# Reward Function and RLHF:
+
+Information about Reward Function and RLHF is not provided in the OCR text.
+---
+#
+
+# Document
+
+# Patel Manmeet (21IT456)
+
+# Reinforcement Learning from Human Feedback (RLHF)
+
+RLHF involves training a reward function for reinforcement learning. The model is fine-tuned for question-answering using ELI5-style questions, and the reward function is crucial for aligning the model with human expectations.
+
+# Image Captioning
+
+Delves into the realm of image captioning, where models generate textual descriptions for images.
+
+# Image Captioning and BLEU-4
+
+The BLEU-4 metric measures the similarity between predicted and training captions through 4-grams. Various datasets like Flicker8k and Flicker30k are briefly discussed.
+
+# Hyperparameters
+
+Dropout is explained as a regularization technique to prevent overfitting by randomly dropping out neurons during training. The learning rate scheduler adjusts the learning rate dynamically during training, impacting the convergence and performance of the model.
+
+# Checkpoints
+
+Highlights the importance of checkpoints in training. Checkpoints allow the model's state to be saved periodically, providing the ability to resume training or evaluate model performance at different stages.
+
+# DALL-E by OpenAI
+
+Briefly introduces DALL-E, an OpenAI model capable of generating images from textual descriptions. The model showcases the expanding capabilities of AI in creative tasks beyond traditional machine learning applications.
+
+By providing a more detailed explanation, we aim to enhance the understanding of each concept within the given data.
+
+# Day-10
+
+# Elastic search
+
+Information about Elastic search goes here.
+
+22
+---
+#
+
+# OCR Text
+
+# OCR Text:
+
+Patel Manmeet (21IT456)
+
+Elasticsearch is a powerful tool for managing and searching through large sets of
+documents efficiently. Suppose you have a collection of documents, and someone wants to
+ask questions related to that content. In such a scenario, the first step is to index those
+documents, making them searchable through Elasticsearch.
+
+Notably, companies like Jaguar, Land Rover, Pfizer, Delhivery, and Engadget leverage
+Elasticsearch for various purposes.
+
+When running applications, it's common to have three different environments: development
+(dev), quality assurance (QA), and production. Each environment generates different types
+of logs, including error, exception, debug, and info logs. Kibana, a user interface, operates on
+port 5601 and serves as a visualization tool for Elasticsearch logs.
+
+In the production environment, it's advisable to change the default port number for added
+security.
+
+One essential use case is to index documents and enable AI-driven search capabilities. This
+involves implementing a retriever and a reader. The retriever is responsible for finding relevant
+documents for a given functionality. The process involves word embedding, where numeric
+values are assigned to words and placed in a vector space. The default dimension for word
+embedding is 768, but recent models support up to 2048 dimensions. Transformers play a
+crucial role in this process, enabling parallelization.
+
+For the retriever, there are techniques like one-hot encoding and normal encoding.
+
+The reader, on the other hand, is tasked with finding answers to content and queries. It employs
+an encoder and decoder model to accomplish this task effectively.
+
+In summary, Elasticsearch is employed to index documents and facilitate efficient and
+intelligent searching through the implementation of retriever and reader functionalities.
+It's a valuable tool used by various companies for tasks ranging from managing logs in different
+environments to enabling sophisticated search capabilities through AI-driven processes.
+
+Day-11
+
+Project selection and discussion:
+
+23
+---
+#
+
+# OCR Text Analysis
+
+# OCR Text Analysis
+
+Name: Patel Manmeet
+
+Roll Number: 21IT456
+
+# Project Concept: "Match highlights generation with event detection in cricket"
+
+After a pleasant conversation about projects, the team considered potential ML projects to work on either solo or in pairs. The chosen project concept involved generating match highlights in cricket with event detection, such as dot balls, boundaries, wickets, or runs. However, due to challenges with dataset availability and scrapping, the project was postponed for future consideration.
+
+# Day-12: Project Planning and Implementation
+
+Following the shelving of the cricket project, the team embarked on a new project titled "Calculating the Screen Time of Actors in any Video with Deep Learning." With guidance from industry experts, the planning and implementation of this project were successfully completed. This experience provided valuable insights into real-world industrial project approaches.
+
+Date: Day-12
+
+Next Steps: Pondering on future project ideas
+---
+#
+
+# Project Details
+
+# Project Details
+
+# Chapter 1: Introduction
+
+# 1.1 Aim of the Project
+
+To develop a deep learning-based solution for analyzing videos from the popular 'Tom and Jerry' cartoon series and calculating the screen time of both 'Tom' and 'Jerry' in any given video. This project addresses the challenge of quantifying the amount of time these characters appear on the screen, providing valuable insights into their presence within the video content. The goal is to create a tool that can automate the screen time calculation process, which is of significant importance for actors, as it directly impacts their compensation.
+
+# 1.2 Project Scope
+
+This project's significance lies in its potential applications for content creators, media companies, and actors who rely on accurate screen time measurements. By accurately quantifying the time each character appears on the screen, the project could provide valuable insights for the entertainment industry, potentially leading to better compensation models for actors based on their actual screen time. It has potential in advertisement revenue management, like in sports watching.
+
+# 1.3 Project Objective
+
+# 1.3.1 Develop an Accurate Screen Time Detection Model:
+
+The primary objective is to create a robust deep learning model that can accurately detect and track the appearances of characters, such as Tom and Jerry, in video content. This involves implementing state-of-the-art computer vision techniques to handle complex scenes, occlusions, and character movements, ensuring precise screen time measurements.
+
+# 1.4 Project Modules
+
+# 1.4.1 Video Preprocessing
+
+This module focuses on video preprocessing, frame extraction, and object detection. It would include technologies like OpenCV and deep learning models for object detection (e.g., CNN, Faster R-CNN). Additionally, it may involve techniques for tracking objects across frames and accuracy of object identification.
+
+# 1.4.2 Machine Learning and Deep Learning Module:
+
+Content for Module 1.4.2 goes here...
+---
+#
+
+# OCR Text Information
+
+# OCR Text Information
+
+Name: Patel Manmeet
+
+Student ID: 21IT456
+
+# Module: Core Algorithms for Screen Time Calculation
+
+This module focuses on developing core algorithms for screen time calculation using deep learning architectures to detect and track actors in video frames. Libraries such as TensorFlow or PyTorch will be utilized for model development and training.
+
+# Data Visualization and Reporting Module
+
+This module emphasizes data visualization techniques and reporting tools to effectively convey results. Libraries like Matplotlib, Seaborn, Tableau, or Power BI will be used to present insights from screen time analysis, providing clear and actionable information to stakeholders in the entertainment industry.
+
+# Project Basic Requirements
+
+1. Training video: tom_jerry.mp4
+2. Test video: evaluate_tom_jerry.mp4
+3. Label image for train: mapping.csv
+4. Store label for test: test.csv
+5. Libraries:
 - Numpy
-- Cv2
-- FFmpeg
-- Chokidar
-- Range
-- MoviePy
-- Shutil
+- Pandas
+- Matplotlib
+- Keras
+- Skimage
+- OpenCV (cv2)
 
-# Research papers:
+Page Number: 26
+---
+#
 
-- Xingjian Shi, Zhourong Chen, Hao Wang, Dit-Yan Yeung, Wai-Kin Wong, Wang-chun Woo.
-Convolutional LSTM Network: A Machine Learning Approach for Precipitation Nowcasting.
-- Kalpit Dixit, Anusha Balakrishnan. Deep Learning using CNNs for Ball-by-Ball Outcome Classification in Sports.
-- Kumail Abbas, Muhammad Saeed. Deep-Learning-Based Computer Vision Approach For The Segmentation Of Ball Deliveries
-And Tracking In Cricket.
+# Video Preprocessing
+
+# Chapter 2: Analysis, Design Methodology and Implementation Strategy
+
+# 2.1 Video Preprocessing:
+
+Videos are nothing but a collection of a set of images. These images are called frames and can be combined
+to get the original video. So, a problem related to video data is not that different from an image classification
+or an object detection problem. There is just one extra step of extracting frames from the video.
+
+# 2.1.1 Import and read the video, extract frames from it, and save them as images:
+
+The initial step in the project involves the ingestion of video data. By utilizing libraries such
+as OpenCV, the video is imported and read frame by frame, with each frame treated as an
+image. These frames are sequentially extracted and subsequently saved as individual image
+files, usually in JPEG or PNG format, to form a comprehensive collection of images
+representing the video's content.
+
+Figure 1: Extracted frame
+
+# 2.1.2 Label a few images for training the model:
+
+In some instances, a subset of these images may require manual labeling to indicate the
+presence of specific elements, such as the actors Tom and Jerry, serving as the ground truth.
+---
+#
+
+# Document
+
+# Patel Manmeet (21IT456)
+
+# 2.2 Machine Learning and Deep Learning Module
+
+# 2.2.1 Building the Model:
+
+We need to make changes to these images similar to the ones we did for the training images. We will preprocess the images, use the base_model.predict() function to extract features from these images using the VGG16 pretrained model, reshape these images to 1-D form, and make them zero-centered. We have a hidden layer with 1,024 neurons and an output layer with 3 neurons (since we have 3 classes to predict).
+
+# 2.2.2 Compiling the Model:
+
+Compiling a deep learning model for a screen time calculation project involves several key steps. First, choose an optimizer, such as Adam or SGD, to define how the model's weights will be updated during training. Then, select an appropriate loss function to measure the disparity between predicted and actual screen times.
+
+# 2.2.3 Training the Model:
+
+During training, the model adjusts its parameters to minimize the difference between its predictions and the actual target values in the training data. This iterative process uses optimization techniques to fine-tune the model, making it capable of making accurate predictions on unseen data. Training typically involves splitting data into training and validation sets, selecting an appropriate loss function and optimization algorithm, and setting hyperparameters.
+---
+#
+
+# Software and Tools Utilized in Project Implementation
+
+# Software and Tools Utilized in Project Implementation
+
+# Chapter 3: Implementation and Testing
+
+# 3.1 Software and Tools
+
+The implementation of the project involves the use of a variety of software and tools across different stages of the project. Here is a comprehensive list of the software and tools utilized:
+
+# 3.1.1 Video Preprocessing
+
+- # Python:
+
+Description: Python serves as the primary programming language for implementing various data preprocessing tasks.
+
+Purpose: Python's extensive libraries and flexibility make it suitable for handling data and performing essential preprocessing steps.
+- # pandas:
+
+Description: Pandas is a powerful data manipulation library in Python.
+
+Purpose: It is used for tasks such as handling missing values, data format conversion, and creating unified "tags" columns.
+- # OpenCV:
+
+Description: OpenCV is a powerful data manipulation library in Python.
+
+Purpose: It is used for tasks such as handling missing values, data format conversion, and creating unified "tags" columns.
+- # keras:
+
+Description: Keras is an open-source deep learning framework that provides a high-level, user-friendly interface for building, training, and deploying neural networks.
+
+Purpose: It simplifies the process of developing machine learning models and is widely used for various AI applications, including image and text classification, object detection, and natural language processing.
+- # skimage:
+
+Description: Scikit-Image (skimage) is an open-source image processing library in Python used for tasks like image manipulation, analysis, and computer vision.
+---
+#
+
+# Tech Tools Overview
+
+# Collaboration and Communication
+
+# a) GitHub:
+
+Description: GitHub is a web-based platform for version control and collaboration.
+
+Purpose: It is used for hosting the project repository, enabling collaboration, and tracking issues and enhancements.
+
+# Text Editors or IDEs
+
+# VSCode:
+
+Description: VSCode is an integrated development environment (IDE) for Python.
+
+Purpose: It is used for coding, debugging, and managing the project.
+
+# Notebooks
+
+# Google Colab:
+
+Description: Google Colab is an open-source web application that allows you to create and share documents containing live code, equations, visualizations, and narrative text.
+
+Purpose: Google Colab is used for exploratory data analysis, prototyping, and presenting code in an interactive manner.
+
+# Implementation Snapshot
+
+Provide snapshots or snippets of key parts of the implementation. This could include code snippets demonstrating data preprocessing, vectorization, and the recommendation algorithm. Screenshots of the web interface during testing may also be included.
+
+Page 30
+---
+#
+
+# OCR Text Analysis
+
+# OCR Text Analysis
+
+# Model Summary
+
+- Model Type: Sequential
+
+**Layer Information**
+|Layer (type)|Output Shape|Param|
+|---|---|---|
+|Dense (Dense)|(None, 1024)|25691136|
+|Dense (Dense)|(None, 3)|3075|
+
+Total Params: 25694211 (98.02MB)
+
+Trainable Params: 25694211 (98.02MB)
+
+Non-trainable Params: 0.00 Byte
+
+# Model Compilation
+
+Loss Function: Categorical Crossentropy
+
+Optimizer: Adam
+
+Metrics: Accuracy
+
+# Model Training
+
+Epoch 1/100: Loss: 0.8346, Accuracy: 0.5944, Val Loss: 0.4602, Val Accuracy: 0.8710
+
+Epoch 2/100: Loss: 0.2423, Accuracy: 0.9441, Val Loss: 0.2722, Val Accuracy: 0.9194
+
+Epoch 3/100: Loss: 0.1140, Accuracy: 0.9860, Val Loss: 0.2172, Val Accuracy: 0.9355
+
+Epoch 4/100: Loss: 0.0654, Accuracy: 0.9860, Val Loss: 0.1867, Val Accuracy: 0.9355
+
+Epoch 5/100: Loss: 0.0464, Accuracy: 0.9860, Val Loss: 0.1909, Val Accuracy: 0.9194
+
+Epoch 6/100: Loss: 0.0332, Accuracy: 0.9930, Val Loss: 0.1801, Val Accuracy: 0.9194
+
+Epoch 7/100: Loss: 0.0221, Accuracy: 0.9930, Val Loss: 0.1733, Val Accuracy: 0.9516
+
+Epoch 8/100: Loss: 0.0160, Accuracy: 1.0000, Val Loss: 0.1760, Val Accuracy: 0.9516
+
+Epoch 9/100: Loss: 0.0129, Accuracy: 1.0000, Val Loss: 0.1844, Val Accuracy: 0.9355
+
+Epoch 10/100: Loss: 0.0106, Accuracy: 1.0000, Val Loss: 0.1932, Val Accuracy: 0.9355
+
+Epoch 11/100: Loss: 0.0091, Accuracy: 1.0000, Val Loss: 0.1986, Val Accuracy: 0.9355
+
+Epoch 12/100: Loss: 0.0081, Accuracy: 1.0000, Val Loss: 0.2004, Val Accuracy: 0.9355
+
+Epoch 13/100: Loss: 0.0073, Accuracy: 1.0000, Val Loss: 0.1994, Val Accuracy: 0.9355
+
+Epoch 14/100: Loss: 0.0067, Accuracy: 1.0000, Val Loss: 0.1989, Val Accuracy: 0.9355
+
+Epoch 15/100: Loss: 0.0061, Accuracy: 1.0000, Val Loss: 0.2005, Val Accuracy: 0.9355
+---
+#
+
+# OCR Text
+
+Patel Manmeet (21IT456)
+
+print( "Thescreentime
+
+print(Thescreentimeof JERRY is"predictions [predictions--2]predictionspredicctions--l]. shape[0],secondsseconds
+
+TOM is shape[0] =
+
+Thescreen time of JERRY is 54 seconds
+
+Thescreen timeof TOM is 124 seconds
+
+Figure 6: Result on evaluate_tom_jerry.mp4
+
+32
+---
+#
+
+# Conclusion
+
+# Chapter 4: Conclusion
+
+First, I tried using the pretrained model without removing the top layer. The results were not satisfactory. The possible reason could be that these are the cartoon images and our pretrained model was trained on actual images and hence it was not able to classify these cartoon images. To tackle this problem, I retrained the pretrained model using a few labeled images and the results were better than the previous results.
+
+We achieved an accuracy of around 88% on the validation data and 64% on the test data using this model.
+
+One possible reason for getting a low accuracy on the test data could be a lack of training data. As the model does not have much knowledge of cartoon images like TOM and JERRY, we must feed it more images during the training process. My advice would be to extract more frames from different TOM and JERRY videos, label them accordingly, and use them for training the model. Once the model has seen a plethora of images of these two characters, there’s a good chance it will lead to a better classification result.
+
+Such models can help us in various fields:
+
+- We can calculate the screen time of a particular actor in a movie
+- Calculate the screen time of your favorite superhero, helpful in fan wars!!
+- From a business point of view, it could be helpful in advertisement revenue management.
+- Like in sports watching, the cost of advertisement could be different based on viewers.
+
+These are just a few examples where this technique can be used.
+---
+#
+
+# References
+
+# References
+
+- Project idea and Reference: Deep Learning Video Classification
+- Datasets: YouTube Datasets
+- Andrej Karpathy Video Lectures: Video Lectures
+- Python documentation: Python Documentation
+- streamlit documentation: Streamlit Documentation
+- pandas documentation: Pandas Documentation
+- numpy documentation: NumPy Documentation
+- Project github repository: GitHub Repository
+
+34

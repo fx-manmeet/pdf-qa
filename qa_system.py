@@ -11,8 +11,8 @@ def setup_qa_system(vs, embed_model):
                           api_key=GROQ_API_KEY)
     
     vectorstore = Chroma(embedding_function=embed_model,
-                         persist_directory="chroma_db_llamaparse1",
-                         collection_name="rag")
+                         persist_directory="chroma_db_llamaparse",
+                         collection_name="rag1")
     
     retriever = vectorstore.as_retriever(search_kwargs={'k': 3})
 
